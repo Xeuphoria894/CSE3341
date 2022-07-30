@@ -1,2 +1,2 @@
 # CSE3341
-Build a language complier/interpreter
+Build a language compiler/interpreter
