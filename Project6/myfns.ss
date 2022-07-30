@@ -1,29 +1,3 @@
-; CSE3341 Lab6 (Version 2)
-;Peter Luo, luo.956
-
-;; This is Version 2; I visited Nick's Office
-;; Hour on Sunday and he said he would grade both
-;; versions (previous Version1 submitted on Friday and
-;; this one) and take the highest as the final grade.
-
-; C8 and C9 is failed, and the code is not taking
-; care of planLet x (function ... ...) (expr);
-;This is improved from last version since it works 
-;with planFunction; however in the office hours
-;Nick was not able to run the grading scheme tests
-;so unsure with future 6 more test cases, however,
-;it seems to work except for planLet x (function ... ...) (expr)
-
-; To be honest I really think this is the
-;hardest project. I'm still not sure about
-;how to bind correctly and pass the function itself
-;as a parameter to the PlanLet. Other functions
-;are easy and seems to work.
-
-;The planLet and planFunction still destroys my life.
-;Still unsure how to figure out planFunction with
-;planLet.
-
 (define (myinterpreter prog)
         (evalExpr (car (cdr prog)) '() 'id_1)
 )
